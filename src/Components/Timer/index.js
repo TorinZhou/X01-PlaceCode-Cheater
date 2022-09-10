@@ -15,10 +15,10 @@ const Timer = () => {
     }, 1000);
   }, []);
   return (
-    <div>
-      <p className="text-3xl">
+    <div className="whitespace-nowrap">
+      <p className="text-xl">
         {dateFmt}
-        <span className="text-5xl"> {second}</span>
+        <span className="text-2xl"> {second}</span>
       </p>
     </div>
   );
